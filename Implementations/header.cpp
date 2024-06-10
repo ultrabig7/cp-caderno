@@ -1,3 +1,5 @@
+//Para iniciar códigos: normalmente só copiar e colar, mas nem tudo isso
+// é útil em um mesmo problema;
 #include<bits/stdc++.h>
 using namespace std;
 
@@ -33,17 +35,19 @@ using vpi = V<pi>;
 
 const int MOD = 1e9+7;
 const db PI = acos((db)-1);
-mt19937 rng(0); //or mt19937_64
+mt19937 rng(0); //or mt19937_64, serve para randomização
 
 tcT> bool ckmin(T& a, const T& b){
     return b<a? a=b, 1:0;
-}
+} // faz a receber min(a,b)
 
 tcT> bool ckmax(T& a, const T& b){
     return b>a? a = b, 1:0;
+} // a recebe max(a,b)
+
+
+int main(){ //fast IO
+    cin.tie(0)->sync_with_stdio(0);
 }
-
-
-int main(){cin.tie(0)->sync_with_stdio(0);}
 
 
